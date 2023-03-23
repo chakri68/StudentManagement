@@ -1,0 +1,10 @@
+__pycache__
+
+# local python config
+Include
+Lib
+Scripts
+*.cfg
+
+# Editor Configuration
+.vscode

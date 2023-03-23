@@ -1,0 +1,93 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="461px" height="290px" viewBox="-0.5 -0.5 461 290" content="&lt;mxfile&gt;&lt;diagram id=&quot;0Ozw2ewE9kv_DaLm5akm&quot; name=&quot;Page-1&quot;&gt;7VnBjtowEP2aSO2hVRITlh4hbLcHVlqVqj2bZCDWOnbkmAX26ztOHBIItKHLoh4iIYifxxPPvDeZyDgkTLcPimbJo4yBO74bbx0ydXw/uCP4bYBdCQwCrwRWisUl1ADm7BUs6Fp0zWLIDwy1lFyz7BCMpBAQ6QOMKiU3h2ZLyQ/vmtEVtIB5RHkb/cVinZToKHBr/BuwVVLd2XPtTEorYwvkCY3lpgGRe4eESkpdXqXbELjJXZWXct3XM7P7jSkQussCv1zwQvnaxvaTwcbxh45PMNtkYrepd1Xs+YalnAocTZZS6Lmd8XBMOVsJvI7w5qAQeAGlGaZtbCe0zBCNEsbjGd3Jtdlirmn0XI0miVTsFd1Sbn3itNJWAbirpsXcrETYbFNBjjZPVdzeEfRItweGM5prC0SSc5rlbLEPI6VqxcREai1Ta9ROq820iRC2Dcim+QFkClrt0MTODi3jVvKE2PGmFpBX2SRN8dwNrHCtaFd71zWveGGpPU0zadHs+BMzLzJMu+8u5LaoA2UqCbYIhaY8gcacIdVNOZhl4zg2i9aYIdGanLHcuJRL44vmz3nLYgocNHp1gUaJtTIRUIU/btM89J2x2/7GVJjiTjPjJ25JtIjASEfJZwglx7DIVMhSs4zzI6iSLYelPivaPKMRE6tZYTMd1Mh3S5WBJK5d8qKeExbHIIzgpKaaluoyMWWSCV1QGUzwg+GG7ufACaYm58HEq8f4MeZKh1JgLJQV2gOU7gaMfE+o0u+sSitDk+tOKvSuoMLBCRUeUVfIraKuerZ6/8RbigxwqIn6YXicfvJaZJI2meQEcZwugD/JnGkmjX9V2h4R+jfODkXJRAKKXYlLb9DxkTJ6O5XBmQcKOkpk/EHvMvjokLEpbrzsK/QtrI66sVqV8ltoHbZoxciQJM6xn/dvAtd5EyBHrwL+qGvdXoHhuzOFu2RgXoL7im3xO+zM74U99RoFO+pb6gUt9WIqA/9mHfVL31FvVJ/Djo/ba9RndWLRoNWehvTN9F2a6eCWzdTzWuz23fTP1boviP+ynXrt87C+n57vp5eTecOG6p079Oo76tVr9B1bKg7r4/BirvGfArn/DQ==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-4-81-152-114-0">
+            <rect x="4" y="81" width="152" height="114"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-203-152-26-0">
+            <rect x="4" y="203" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-304-31-152-26-0">
+            <rect x="304" y="31" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-304-65-152-26-0">
+            <rect x="304" y="65" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-304-231-152-26-0">
+            <rect x="304" y="231" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-304-265-152-26-0">
+            <rect x="304" y="265" width="152" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 76 L 0 50 L 160 50 L 160 76" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 76 L 0 224 L 160 224 L 160 76" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 76 L 160 76" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="79.5" y="67.5">
+                View
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-81-152-114-0)" font-size="12px">
+            <text x="5.5" y="93.5">
+                + input box for text, deadline
+            </text>
+            <text x="5.5" y="107.5">
+                + Add button
+            </text>
+            <text x="5.5" y="121.5">
+                + List of tasks
+            </text>
+            <text x="5.5" y="135.5">
+                + Delete each task/mark
+            </text>
+            <text x="5.5" y="149.5">
+                as completed
+            </text>
+        </g>
+        <path d="M 0 194 L 160 194" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-203-152-26-0)" font-size="12px">
+            <text x="5.5" y="215.5">
+                + method(type): type
+            </text>
+        </g>
+        <path d="M 300 26 L 300 0 L 460 0 L 460 26" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 300 26 L 300 86 L 460 86 L 460 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 300 26 L 460 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="379.5" y="17.5">
+                Controller
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-304-31-152-26-0)" font-size="12px">
+            <text x="305.5" y="43.5">
+                + field: type
+            </text>
+        </g>
+        <path d="M 300 56 L 460 56" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-304-65-152-26-0)" font-size="12px">
+            <text x="305.5" y="77.5">
+                + method(type): type
+            </text>
+        </g>
+        <path d="M 300 226 L 300 200 L 460 200 L 460 226" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 300 226 L 300 286 L 460 286 L 460 226" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 300 226 L 460 226" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="379.5" y="217.5">
+                Model
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-304-231-152-26-0)" font-size="12px">
+            <text x="305.5" y="243.5">
+                + field: type
+            </text>
+        </g>
+        <path d="M 300 256 L 460 256" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-304-265-152-26-0)" font-size="12px">
+            <text x="305.5" y="277.5">
+                + method(type): type
+            </text>
+        </g>
+    </g>
+</svg>
