@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from PyQt6.QtWidgets import QWidget, QLineEdit
+from PyQt6.QtWidgets import QDateTimeEdit, QLineEdit
 from enum import Enum
 import datetime
 
@@ -10,7 +10,10 @@ class TaskAppView:
   def taskTextInput(self) -> QLineEdit:
     pass
 
-  # @todo Add abstract property for taskDeadlineInput
+  @property
+  @abstractmethod
+  def taskDeadlineInput(self) -> QDateTimeEdit:
+    pass
 
 
 class TaskEvent(Enum):

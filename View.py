@@ -1,9 +1,10 @@
 import sys
+from datetime import datetime
 from Controller import TaskAppController
 from Interfaces import TaskAppView as TaskApp
 from Model import TaskAppModel
 from Interfaces import Task, TaskEventListener, TaskEvent
-from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QMainWindow, QVBoxLayout, QLineEdit, QHBoxLayout, QPushButton
+from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QMainWindow, QVBoxLayout, QLineEdit, QHBoxLayout, QPushButton, QDateTimeEdit
 
 
 # class TaskAppViewMeta(type(QMainWindow), type(TaskEventListener), type(TaskApp)):
@@ -34,15 +35,24 @@ class TaskAppView(QMainWindow, TaskEventListener, TaskApp):
   def taskTextInput(self, taskTextInput: QLineEdit):
     self._taskTextInput = taskTextInput
 
+  @property
+  def taskDeadlineInput(self):
+    return self._taskDeadlineInput
+
+  @taskDeadlineInput.setter
+  def taskDeadlineInput(self, taskDeadlineInput: QDateTimeEdit):
+    self._taskDeadlineInput = taskDeadlineInput
+
   def _createInputArea(self):
     inputAreaLayout = QVBoxLayout()
     self._taskTextInput = QLineEdit()
-    # @todo Add the task deadline input
-    # self.taskDeadLineIn = QLineEdit()
+    self._taskDeadlineInput = QDateTimeEdit()
+    self.taskDeadlineInput.setDateTime(datetime.now())
     self.addTaskButton = QPushButton(text="Add Task")
     self.addTaskButton.clicked.connect(
       self.controller.handle_add_task)
     inputAreaLayout.addWidget(self.taskTextInput)
+    inputAreaLayout.addWidget(self.taskDeadlineInput)
     inputAreaLayout.addWidget(self.addTaskButton)
     self.generalLayout.addLayout(inputAreaLayout)
 
@@ -60,6 +70,8 @@ class TaskAppView(QMainWindow, TaskEventListener, TaskApp):
     newTaskLayout.addWidget(deadline)
     newTaskLayout.addWidget(isCompleted)
     self.taskListLayout.addLayout(newTaskLayout)
+    self.taskDeadlineInput.setDateTime(datetime.now())
+    self.taskTextInput.setText("")
 
   def handle(self, event: TaskEvent, new_task: Task):
     match event:

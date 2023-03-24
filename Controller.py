@@ -10,4 +10,5 @@ class TaskAppController:
 
   def handle_add_task(self):
     task_text = self.view.taskTextInput.text()
-    self.model.add_task(text=task_text)
+    deadline = self.view.taskDeadlineInput.dateTime().toPyDateTime()
+    self.model.add_task(text=task_text, deadline=deadline)
